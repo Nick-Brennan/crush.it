@@ -1,0 +1,23 @@
+{
+  "name": "crush.it",
+  "version": "1.0.0",
+  "description": "Resource Sharing and Social Platform For Tech Job Searchers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nick-Brennan/crush.it.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nick-Brennan/crush.it/issues"
+  },
+  "homepage": "https://github.com/Nick-Brennan/crush.it#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "mongoose": "^4.3.7"
+  }
+}
