@@ -1,10 +1,11 @@
-//expess config
+//express config
 var express = require('express');
 var app = express();
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var views = path.join(process.cwd(), "views"); 
+
 //middleware config
 app.set('port', process.env.PORT || 3000);
 
