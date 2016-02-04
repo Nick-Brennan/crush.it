@@ -1,6 +1,13 @@
 //express config
 var express = require('express');
 var app = express();
+var session = require('express-sesion');
+var mongoose = require('mongoose');
+var passport = require('passport');
+var LocalStrategy = require('passport-local').Strategy;
+var bcrypt = require('bcrypt-nodejs');
+var async = require('async');
+var crypto = require('crypto');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');

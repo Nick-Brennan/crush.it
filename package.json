@@ -17,9 +17,11 @@
   },
   "homepage": "https://github.com/Nick-Brennan/crush.it#readme",
   "dependencies": {
+    "async": "^1.5.2",
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.14.2",
     "cookie-parser": "^1.4.1",
+    "crypto": "0.0.3",
     "express": "^4.13.4",
     "express-session": "^1.13.0",
     "mongoose": "^4.3.7",
